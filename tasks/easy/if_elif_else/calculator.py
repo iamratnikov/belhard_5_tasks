@@ -36,8 +36,6 @@ def calculator(num1: int, num2: int, operation: str) -> Union[int, float, str]:
     return result
 
 
-
-
 if __name__ == '__main__':
     num1_val = int(input('Введите первое число: '))
     num2_val = int(input('Введите второе число: '))
