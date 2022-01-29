@@ -26,6 +26,10 @@ def is_palindrome(check_str: str) -> bool:
     :rtype: bool
     """
     result = None
+    if check_str == check_str[::-1]:
+        return True
+    else:
+        return False
     return result
 
 
